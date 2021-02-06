@@ -18,7 +18,9 @@
 // #define SEB_TIMER_MODE              // enables runtime measurements
 // #define SEB_STATS_MODE              // enables statistics
 
+#ifdef SEB_DEBUG_MODE
 #include "Seb_debug.h"
+#endif
 
 // Fixes for GCC series 2.95.  (This fix is necessary for 2.95.2 at
 // least.  But I guess it is needed for any earlier version of the 2.95
